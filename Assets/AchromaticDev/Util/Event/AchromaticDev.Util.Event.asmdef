@@ -1,0 +1,14 @@
+{
+    "name": "AchromaticDev.Util.Event",
+    "rootNamespace": "AchromaticDev.Util.Event",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

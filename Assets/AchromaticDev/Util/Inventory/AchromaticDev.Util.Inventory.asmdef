@@ -1,0 +1,14 @@
+{
+    "name": "AchromaticDev.Util.Inventory",
+    "rootNamespace": "AchromaticDev.Util.Inventory",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

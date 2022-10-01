@@ -1,0 +1,14 @@
+{
+    "name": "AchtomaticDev.Util.Pooling",
+    "rootNamespace": "AchtomaticDev.Util.Pooling",
+    "references": ["GUID:1bc23d3f44a51b04d83b81af5b3895f4"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
