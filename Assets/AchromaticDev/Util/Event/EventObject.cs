@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 namespace AchromaticDev.Util.Event
 {
-    [CreateAssetMenu(fileName = "New Event", menuName = "AchromaticDev/Event")]
+    [CreateAssetMenu(fileName = "New Event", menuName = "AchromaticDev/Event/Event")]
     public class EventObject : ScriptableObject
     {
         [SerializeField] private List<EventListener> listeners = new List<EventListener>();

@@ -7,7 +7,7 @@ namespace AchromaticDev.Util.Pooling
     [CanEditMultipleObjects]
     public class PoolManagerEditor : Editor
     {
-        private SerializedProperty poolList;
+        SerializedProperty poolList;
         
         public override void OnInspectorGUI()
         {

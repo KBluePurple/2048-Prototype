@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -28,13 +29,8 @@ namespace AchromaticDev.Util.Pooling
                 obj.SetActive(false);
                 _pool.Enqueue(poolObject);
             }
-            
+
             SceneManager.sceneUnloaded += SceneUnloaded;
-        }
-        
-        private void SceneUnloaded(Scene scene)
-        {
-            _pool.Clear();
         }
         
         public GameObject GetObject(GameObject poolPrefab, Vector3 position, Quaternion rotation, Transform parent = null)
@@ -47,10 +43,17 @@ namespace AchromaticDev.Util.Pooling
             else
             {
                 obj = Instantiate(poolPrefab, position, rotation, parent);
-                var poolObject = obj.AddComponent<PoolObject>();
+                obj.name = $"PoolObject ({poolPrefab.name})";
+                var poolObject = obj.GetComponent<PoolObject>();
+                
+                if (poolObject == null)
+                    poolObject = obj.AddComponent<PoolObject>();
+                
+                PoolManager.Instance.PoolObjectCache[obj] = poolObject;
                 poolObject.pool = this;
             }
             obj.SetActive(true);
+            PoolManager.Instance.PoolObjectCache[obj].onSpawn?.Invoke();
             
             return obj;
         }
@@ -58,7 +61,21 @@ namespace AchromaticDev.Util.Pooling
         public void ReturnObject(GameObject obj)
         {
             obj.SetActive(false);
-            _pool.Enqueue(obj.GetComponent<PoolObject>());
+            if (PoolManager.Instance.PoolObjectCache.TryGetValue(obj, out var poolObject))
+            {
+                _pool.Enqueue(poolObject);
+                poolObject.onDespawn?.Invoke();
+            }
+        }
+        
+        private void SceneUnloaded(Scene scene)
+        {
+            foreach (var poolObject in _pool)
+            {
+                PoolManager.Instance.PoolObjectCache.Remove(poolObject.gameObject);
+                Destroy(poolObject.gameObject);
+            }
+            _pool.Clear();
         }
     }
 }

@@ -23,9 +23,8 @@ namespace AchromaticDev.Util.Notification
         public float SpaceBetween = 50f;
         public Vector2 NotificationSize = new Vector2(500, 100);
     }
-
-
-    [ExecuteAlways, RequireComponent(typeof(NotificationFactory))]
+    
+    [ExecuteAlways]
     public class NotificationManager : MonoSingleton<NotificationManager>
     {
         public NotificationSettings Settings;
@@ -34,12 +33,6 @@ namespace AchromaticDev.Util.Notification
         [SerializeField] private RectTransform NotificationContainer;
 
         private LinkedList<NotificationElement> NotificationQueue = new LinkedList<NotificationElement>();
-        private NotificationFactory NotificationFactory;
-
-        private void Awake()
-        {
-            NotificationFactory = GetComponent<NotificationFactory>();
-        }
 
         private void Update()
         {
@@ -48,13 +41,6 @@ namespace AchromaticDev.Util.Notification
                 NotificationPrefab.GetComponent<RectTransform>().sizeDelta = Settings.NotificationSize;
                 var rectTransform = NotificationContainer.GetComponent<RectTransform>();
                 rectTransform.sizeDelta = new Vector2(Settings.NotificationSize.x, Settings.NotificationSize.y * Settings.MaxNotifications + Settings.SpaceBetween * (Settings.MaxNotifications - 1));
-            }
-            else
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    ShowNotification("Test Notification");
-                }
             }
         }
 

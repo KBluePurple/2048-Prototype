@@ -1,11 +1,14 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 namespace AchromaticDev.Util.Pooling
 {
     public class PoolObject : MonoBehaviour
     {
-        public Pool pool;
+        [HideInInspector] public Pool pool;
+        public UnityEvent onSpawn;
+        public UnityEvent onDespawn;
     }
 }

@@ -44,7 +44,7 @@ namespace AchromaticDev.Util.Notification
         public NotificationElement Show()
         {
             gameObject.SetActive(true);
-            _rectTransform.DOAnchorPosX(_rectTransform.sizeDelta.x, _manager.Settings.AnimationDuration)
+            _rectTransform.DOAnchorPosX(-_rectTransform.sizeDelta.x, _manager.Settings.AnimationDuration)
                 .SetEase(_manager.Settings.InEase);
             StartCoroutine(HideAfterDelay());
             return this;
