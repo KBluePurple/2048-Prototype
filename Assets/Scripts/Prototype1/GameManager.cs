@@ -111,7 +111,7 @@ public class GameManager : MonoSingleton<GameManager>
                 if (nextPosition.x is < 0 or >= 4 || nextPosition.y is < 0 or >= 4) break;
                 if (Blocks[nextPosition.x, nextPosition.y] is not null)
                 {
-                    if (Blocks[nextPosition.x, nextPosition.y].Value == block.Value && !Blocks[nextPosition.x, nextPosition.y].IsMerged)
+                    if (Blocks[nextPosition.x, nextPosition.y].Value == block.Value && !Blocks[nextPosition.x, nextPosition.y].isMerged)
                     {
                         Blocks[nextPosition.x, nextPosition.y].Merge(block);
                         Blocks[block.Position.x, block.Position.y] = null;
@@ -131,7 +131,7 @@ public class GameManager : MonoSingleton<GameManager>
 
             foreach (var block in blocks.Where(block => block != null))
             {
-                Blocks[block.Position.x, block.Position.y].IsMerged = false;
+                Blocks[block.Position.x, block.Position.y].isMerged = false;
             }
         }
         

@@ -1,0 +1,20 @@
+{
+    "name": "Prototype1",
+    "rootNamespace": "",
+    "references": [
+        "GUID:281aca2148a24347bf8cfb1ec188fc8c",
+        "GUID:05d4435005604dedadab713ebbe493de",
+        "GUID:593363d6c0c202e44a82a5d340015dbb",
+        "GUID:1bc23d3f44a51b04d83b81af5b3895f4",
+        "GUID:36d48a888b242d949b707464d13b8e05"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

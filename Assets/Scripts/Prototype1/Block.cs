@@ -16,7 +16,7 @@ public class Block : MonoBehaviour
     private Image _image;
     private GameManager _gameManager;
     private NodeManager _nodeManager;
-    public bool IsMerged = false;
+    public bool isMerged = false;
 
     private void Initialize()
     {
@@ -53,7 +53,7 @@ public class Block : MonoBehaviour
         SetValue(Value + otherBlock.Value);
         StartCoroutine(otherBlock.Destroy());
         blockEventObject.Invoke(this);
-        IsMerged = true;
+        isMerged = true;
     }
     
     public IEnumerator Destroy()

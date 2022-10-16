@@ -1,72 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd0299a-80f2-4e1d-a5ac-4272dedb01d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Events/OnMerged.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Trigger.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Block.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Notification.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trigger.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEventListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEventObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NodeManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2048-Prototype.sln.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Prototype1.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Block.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/BlockPos.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Board.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Prototype2.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2048-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2048-Prototype/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2048-Prototype.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2048-Prototype.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchromaticDev.Extensions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Extensions.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchromaticDev.Util.Event.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Util.Event.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchromaticDev.Util.Inventory.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Util.Inventory.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AchromaticDev.Util.Notification.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Util.Notification.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchtomaticDev.Util.Pooling.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchtomaticDev.Util.Pooling.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchtomaticDev.Util.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchtomaticDev.Util.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Event/EventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Event/EventListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Event/EventObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Event/EventObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/AchromaticDev.Util.Notification.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/AchromaticDev.Util.Notification.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/NotificationElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/NotificationElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/NotificationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/NotificationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/AchtomaticDev.Util.Pooling.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Editor/PoolManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Editor/PoolManagerEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Editor/PoolManagerEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Pool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Pool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/Pool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/PoolManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/PoolManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/PoolManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/PoolObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/PoolObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Pooling/PoolObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Block.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Block.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Block.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Block.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NodeManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NodeManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOTween.Modules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DOTween.Modules.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Block.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/BlockEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEventObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/BlockEventObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NodeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/NodeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrototypeEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/PrototypeEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Trigger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/34/8156cf0e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/53/99f4ec01/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/9f/66a60a03/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/e2/2ab70b88/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrototypeEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="th8ys649" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FWmcfuVKJtZw45wpIP62dsk5AH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -84,6 +70,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.5005688&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Markdown&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dbdnj\\AppData\\Local\\JetBrains\\Toolbox\\apps\\Rider\\ch-0\\222.4167.23\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -129,6 +116,9 @@
       <workItem from="1664632816828" duration="18717000" />
       <workItem from="1664693301009" duration="15335000" />
       <workItem from="1664806219042" duration="319000" />
+      <workItem from="1665771740457" duration="392000" />
+      <workItem from="1665892367069" duration="10637000" />
+      <workItem from="1665910972076" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664643003685</created>
@@ -151,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664726764212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="버그 패치">
+      <created>1665146531803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665146531803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +174,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="데미지 로그 및 적 타격 이펙트 까지" />
     <MESSAGE value="추가 업로드" />
-    <option name="LAST_COMMIT_MESSAGE" value="추가 업로드" />
+    <MESSAGE value="버그 패치" />
+    <option name="LAST_COMMIT_MESSAGE" value="버그 패치" />
   </component>
 </project>

@@ -724,13 +724,13 @@
       <Project>{2fe8cda3-0f6b-bf80-3d8b-69259abad215}</Project>
       <Name>AchtomaticDev.Util</Name>
     </ProjectReference>
-    <ProjectReference Include="AchtomaticDev.Util.Pooling.csproj">
-      <Project>{e19731d6-d404-83b9-1cf3-6b3eec3fb8a3}</Project>
-      <Name>AchtomaticDev.Util.Pooling</Name>
-    </ProjectReference>
     <ProjectReference Include="DOTween.Modules.csproj">
       <Project>{dc22d96f-e20e-8c5e-76b6-5af8bed6ab7d}</Project>
       <Name>DOTween.Modules</Name>
+    </ProjectReference>
+    <ProjectReference Include="AchtomaticDev.Util.Pooling.csproj">
+      <Project>{e19731d6-d404-83b9-1cf3-6b3eec3fb8a3}</Project>
+      <Name>AchtomaticDev.Util.Pooling</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,16 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\AchromaticDev\Sample\ItemRegister.cs" />
-     <Compile Include="Assets\Scripts\NodeManager.cs" />
      <Compile Include="Assets\AchromaticDev\Sample\ItemType.cs" />
      <Compile Include="Assets\AchromaticDev\Sample\FoodItem.cs" />
-     <Compile Include="Assets\Scripts\PrototypeEnemy.cs" />
-     <Compile Include="Assets\Scripts\BlockEventListener.cs" />
-     <Compile Include="Assets\Scripts\BlockEventObject.cs" />
-     <Compile Include="Assets\Scripts\Trigger.cs" />
-     <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\AchromaticDev\Sample\InventoryManager.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -876,6 +869,14 @@
     <ProjectReference Include="AchromaticDev.Extensions.csproj">
       <Project>{321ffe9e-ea02-3609-8b6a-a10054b1606e}</Project>
       <Name>AchromaticDev.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Prototype2.csproj">
+      <Project>{12e59d84-c961-6bb8-756e-4240dbe8ad4a}</Project>
+      <Name>Prototype2</Name>
+    </ProjectReference>
+    <ProjectReference Include="Prototype1.csproj">
+      <Project>{fa619b61-5de0-ff39-be43-9d605b492ce8}</Project>
+      <Name>Prototype1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
