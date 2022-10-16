@@ -12,16 +12,14 @@ namespace Prototype2
         public void Move(Vector2Int direction)
         {
             if (Mathf.Abs(direction.x) != 1 && Mathf.Abs(direction.y) != 1) return;
-            
+
             while (true)
             {
-                position += direction;
-                    
                 var targetPosition = position + direction;
                 if (board.IsBlockAt(targetPosition))
                 {
                     var targetBlock = board.GetBlockAt(targetPosition);
-                    if (targetBlock.value != value) continue;
+                    if (targetBlock.value != value) break;
                     targetBlock.Merge(this);
                     board.RemoveBlock(this);
                     break;
@@ -33,16 +31,28 @@ namespace Prototype2
                 }
                 else
                 {
-                    position -= direction;
                     break;
                 }
             }
         }
-        
+
+        public void MoveTo(Vector2Int targetPosition)
+        {
+            position = targetPosition;
+            transform.position = board.GetPositionFromIndex(targetPosition);
+        }
+
         private void Merge(Block other)
         {
             value += other.value;
             board.RemoveBlock(other);
+        }
+
+        public void Initialize(Board parentBoard, Vector2Int vector2Int, float nodeSize)
+        {
+            board = parentBoard;
+            position = vector2Int;
+            transform.position = parentBoard.GetPositionFromIndex(vector2Int);
         }
     }
 }

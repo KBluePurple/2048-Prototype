@@ -232,7 +232,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 174492042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b1f6aad7084602a822d24928046969, type: 3}
+  m_Script: {fileID: 11500000, guid: 70767c83ef08253469b303cc9a2c85cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   board: {fileID: 467074125}
@@ -442,19 +442,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 467074120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69de41ad58e14e03a28b62bf54b0ed35, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d71107fd8507b248b86d2408b3573fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isAnimating: 1
   size: 4
   spacing: 20
-  cellPrefab: {fileID: 977446350339126138, guid: 1a98e5b9b917a384c92d10f4c19f55be, type: 3}
+  cellPrefab: {fileID: 977446350339126138, guid: 3195839c1c047864abf04e1e4488bf90, type: 3}
   onBoardGenerated:
     m_PersistentCalls:
       m_Calls: []
   onBoardCleared:
     m_PersistentCalls:
       m_Calls: []
+  blockPrefab: {fileID: 7101952939321228479, guid: ecde29913bef6be4ca4af861cb00ad6a, type: 3}
 --- !u!1 &478279987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,8 +1068,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1094860820}
   - component: {fileID: 1094860821}
-  - component: {fileID: 1094860823}
-  - component: {fileID: 1094860824}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1143,34 +1142,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1094860823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094860819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc04ddb31f9223b44bf9eeed31c7cdf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1094860824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094860819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53ccec89ce25406896201fbc55e824d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventObject: {fileID: 11400000, guid: e0e79fd773242dc45bc6f86cc578528e, type: 2}
-  event:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1295630611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,8 +1228,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1493150377}
   - component: {fileID: 1493150378}
-  - component: {fileID: 1493150380}
-  - component: {fileID: 1493150381}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1333,46 +1302,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1493150380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493150376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc04ddb31f9223b44bf9eeed31c7cdf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1493150381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493150376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53ccec89ce25406896201fbc55e824d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventObject: {fileID: 11400000, guid: e0e79fd773242dc45bc6f86cc578528e, type: 2}
-  event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1493150380}
-        m_TargetAssemblyTypeName: PrototypeEnemy, Assembly-CSharp
-        m_MethodName: OnDamage
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1637957696
 GameObject:
   m_ObjectHideFlags: 0

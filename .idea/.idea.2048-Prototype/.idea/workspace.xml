@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd0299a-80f2-4e1d-a5ac-4272dedb01d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2048-Prototype.sln.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Prototype1.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Block.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/BlockPos.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Board.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Prototype2.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Block.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2048-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2048-Prototype/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2048-Prototype.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2048-Prototype.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchromaticDev.Extensions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Extensions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchromaticDev.Util.Event.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Util.Event.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchromaticDev.Util.Inventory.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Util.Inventory.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AchromaticDev.Util.Notification.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchromaticDev.Util.Notification.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchtomaticDev.Util.Pooling.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchtomaticDev.Util.Pooling.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchtomaticDev.Util.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AchtomaticDev.Util.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/AchromaticDev.Util.Notification.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AchromaticDev/Util/Notification/AchromaticDev.Util.Notification.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Block.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/BlockEventListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEventObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/BlockEventObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NodeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/NodeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrototypeEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/PrototypeEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Trigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Prototype1.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype1/Prototype1.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Block.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prototype2/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Prototype2.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prototype2/Prototype2.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOTween.Modules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DOTween.Modules.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +37,20 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/34/8156cf0e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44a70d1b13cf47e29810e30f45ffae08811600/67/65245e9f/EditorApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/53/99f4ec01/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/9f/66a60a03/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/89/a7d9763d/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/e2/2ab70b88/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ad4a992768794363ade575f9e564f6e610fc00/22/b2538646/OrderedEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ad4a992768794363ade575f9e564f6e610fc00/28/8949c7bd/Buffer`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ad4a992768794363ade575f9e564f6e610fc00/92/b9feac13/EnumerableHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ad4a992768794363ade575f9e564f6e610fc00/9b/39ce5fea/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e40e5a8f982c4b618a930d29f9bd091c46a800/34/180e2692/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e40e5a8f982c4b618a930d29f9bd091c46a800/47/eff4a853/SystemException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e40e5a8f982c4b618a930d29f9bd091c46a800/79/1c50397e/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e40e5a8f982c4b618a930d29f9bd091c46a800/a8/0fc17e4a/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e40e5a8f982c4b618a930d29f9bd091c46a800/ec/b7ec9767/Environment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e40e5a8f982c4b618a930d29f9bd091c46a800/f7/8ee0a52f/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
@@ -59,21 +68,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.5005688&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Markdown&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dbdnj\\AppData\\Local\\JetBrains\\Toolbox\\apps\\Rider\\ch-0\\222.4167.23\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.5005688",
+    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
+    "ts.external.directory.path": "C:\\Users\\dbdnj\\AppData\\Local\\JetBrains\\Toolbox\\apps\\Rider\\ch-0\\222.4167.23\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe" />
@@ -93,10 +102,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27220">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="27220" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -176,5 +185,9 @@
     <MESSAGE value="추가 업로드" />
     <MESSAGE value="버그 패치" />
     <option name="LAST_COMMIT_MESSAGE" value="버그 패치" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
